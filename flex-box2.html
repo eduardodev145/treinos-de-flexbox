@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de wrap</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+
+        section{
+            display: flex;
+            flex-wrap:wrap;
+            width: 80vw;
+            background-color: white;
+            height: 700px;
+            margin: auto;
+            
+        }
+
+        div{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+        }
+
+        div.cor1{
+            background-color: blue;
+            order: 2;
+            align-self: center;
+            
+        }
+
+        div.cor2{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="cor1">
+
+        </div>
+        <div class="cor2">
+
+        </div>
+    </section>
+    
+</body>
+</html>
